@@ -8,6 +8,8 @@ tippitytappity is a program to practice typing
 ```mermaid
 classDiagram
   Controlller <|-- UI
+  History --> Controller
+
   class UserData{
         + speed: float
         + wpm: float
