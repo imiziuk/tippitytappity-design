@@ -7,7 +7,7 @@ tippitytappity is a program to practice typing
 
 ```mermaid
 classDiagram
-  Controlller <|-- UI
+  Controller <|-- UI
   History --> Controller
 
   class UserData{
@@ -21,7 +21,7 @@ classDiagram
     + render_phrase
     + validate_input
   }
-  class Controlller{
+  class Controller{
     - phrases: List~string~
     - current_phrase: integer 
   }
